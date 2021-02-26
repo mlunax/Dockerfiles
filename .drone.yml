@@ -13,3 +13,8 @@ steps:
 trigger:
   ref:
     - refs/heads/master
+---
+kind: signature
+hmac: 8a7c19c1ddd425650aff5df19373e1cbb5f2efd871f79748a0a66aaf5b0b7c50
+
+...
