@@ -6,11 +6,10 @@ steps:
     image: appleboy/drone-git-push
     settings:
       branch: master
-      remote: git@github.com:mlunax/Dockerfiles.git
+      remote: ssh://git@github.com/mlunax/Dockerfiles.git
       ssh_key:
         from_secret: ssh_key
       commit: false
 trigger:
   ref:
     - refs/heads/master
-    - refs/tags/*
