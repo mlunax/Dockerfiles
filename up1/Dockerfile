@@ -26,6 +26,7 @@ ENV server_url ""
 ENV api_key  "abc"
 ENV footer '<a href="https://github.com/Upload/Up1" target="_blank">Source Code</a> - <a href="mailto:someemail@email" id="contact" target="_blank">Contact</a>'
 ENV maximum_file_size "50000000"
+ENV http_port 8080
 
 
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
